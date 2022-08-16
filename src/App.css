@@ -1,0 +1,36 @@
+* {
+  /* border: 1px solid red; */
+}
+
+
+.App {
+  display: flex;
+  justify-content: center;
+  margin: 30vh;
+}
+
+.hello {
+  font-size: 4.5rem;
+  margin: 2rem;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.hello:hover {
+  color:rgb(217, 114, 11);
+  text-shadow: 0rem 0.2rem 0.5rem rgb(52, 52, 52);
+  cursor: default;
+}
+
+#box-welcome {
+  display: flex;
+  margin: auto 0;
+}
+
+#box-welcome h3 {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.2s;
+}
